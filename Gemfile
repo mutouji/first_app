@@ -1,6 +1,4 @@
-#source 'https://rubygems.org'
 source 'https://rubygems.org'
-ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -48,5 +46,5 @@ group :development do
 end
 
 group :production do
-	gem 'pg'
+  gem 'pg', '~> 0.18.0'
 end
