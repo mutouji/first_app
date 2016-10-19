@@ -47,3 +47,6 @@ group :development do
   gem 'sqlite3', '1.3.12'
 end
 
+group :production do
+	gem 'pg'
+end
